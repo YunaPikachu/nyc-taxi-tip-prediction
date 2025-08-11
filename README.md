@@ -3,7 +3,7 @@ Predicting NYC taxi tip amounts using Python, Linux VM, PySpark, GCP Dataproc, a
 Completed as part of CIS 9760: Big Data Technologies (Baruch College).
 
 Tools & Technologies
-1. **Linux VM**— retrieved and prepared ~10 GB of raw taxi trip data from Google Cloud Storage
+1. **Linux VM**— retrieved and prepared ~10 GB(2.9 million) of raw taxi trip data from Google Cloud Storage
 2. **Google Cloud Storage (GCS)** — hosted dataset in Parquet format
 3. **Google Cloud Dataproc** — ran distributed PySpark jobs for EDA, cleaning, and modeling
 4. **PySpark** — feature engineering, regression model training, evaluation
