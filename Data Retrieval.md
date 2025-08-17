@@ -18,12 +18,12 @@
 
 
 # Data Retrieval Script for NYC Taxi Data
-```python
+```
 from urllib.request import urlretrieve
 
 # Each parque file is named using the pattern: "yellow_tripdata_<year>-<month>.parquet"
 # The Python script loops through years (e.g., 2023, 2024) and months (1–12) to generate these filenames automatically.
-# Define years and monthse
+# Define years and months
 years_list = ['2023', '2024']
 months_list = [str(m).zfill(2) for m in range(1, 13)]  # '01' to '12'
 
