@@ -19,14 +19,17 @@ Process
    - Removed rows with missing values and extreme outliers.
    - Filtered unrealistic trip distances and fares.
    
-4. **Feature Engineering**
+3. **Feature Engineering**
    -Used Pyspark
    - Extracted features from pickup datetime (hour, day of week, month).
    - Included trip distance, passenger count, and weather factors.
    
-6. **Model Training & Evaluation**  
+4. **Model Training & Evaluation**  
    - Used PySpark MLlib regression model.
    - Achieved RMSE of **2.35** on test data.
+
+5. **Visualizations**
+   - Used Python in JupyterLab on Google Cloud Platform (GCP)
 
 Results
 - RMSE: **2.35**
